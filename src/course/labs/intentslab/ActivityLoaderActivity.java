@@ -73,7 +73,7 @@ public class ActivityLoaderActivity extends Activity {
 
 		startActivityForResult(intent, GET_TEXT_REQUEST_CODE);
 
-
+		Log.i(TAG,"Entered startExplicitActivation()");
 	}
 
 	// Start a Browser Activity to view a web page or its URL
